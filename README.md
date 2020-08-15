@@ -1,3 +1,7 @@
+## Portfolio TS
+Portfolio for Brian Tran built with react and typescript to showcase my skills, knowledge, experience and passion for software development!
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
