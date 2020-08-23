@@ -6,7 +6,7 @@ const Navigation = () => {
   return (
     <ul className="navigation__list">
       <li><Link to="/">Brian Tran</Link></li>
-      <li><Link to="/home">Home</Link></li>
+      <li><Link to="/projects">Projects</Link></li>
     </ul>
   );
 };

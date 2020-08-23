@@ -3,12 +3,10 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Header from "./components/Navigation/Navigation";
 import Landing from './components/Landing/Landing'
+import Project from "./components/Project"
 
 import "./App.css";
 
-function Home() {
-  return <h1>Home</h1>;
-}
 
 function App() {
   return (
@@ -17,7 +15,7 @@ function App() {
         <header className="App-header">
           <Header />
           <Route path="/" exact component={Landing} />
-          <Route path="/home" component={Home} />
+          <Route path="/projects" component={Project} />
         </header>
       </div>
     </Router>
