@@ -2,11 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Header from "./components/Navigation/Navigation";
-import Landing from './components/Landing/Landing'
-import Project from "./components/Project"
+import Landing from "./components/Landing/Landing";
+import Project from "./components/Project";
 
 import "./App.css";
-
 
 function App() {
   return (
